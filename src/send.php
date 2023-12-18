@@ -16,7 +16,7 @@ try {
     $mail->Host       = 'smtp.gmail.com';                  
     $mail->SMTPAuth   = true;                                  
     $mail->Username   = 'diodesign.by@gmail.com';               
-    $mail->Password   = '***********';                             
+    $mail->Password   = '';                             
     $mail->SMTPSecure = 'ssl';         
     $mail->Port       = 465; 
     $mail->CharSet = 'utf-8';                         
